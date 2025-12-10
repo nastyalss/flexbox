@@ -46,7 +46,44 @@ aside{
 .menu{
     display: flex;
     flex-direction: row;
+    gap: 20px;
     justify-content: space-around;
     padding: 20px 0px 20px 0px;
     flex-wrap: wrap;
 }
+
+.address {
+    margin-bottom: 30px;
+    margin-top: 30px;
+}
+.email {
+    margin-bottom: 30px;
+    margin-top: 30px;
+}
+.tel {
+    margin-bottom: 30px;
+    margin-top: 30px;
+}
+footer{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+
+.content{
+    display:flex;
+    justify-content: space-around;
+    width: 100%;
+    
+}
+.flex-elem{
+    width: 150px;
+    min-height: 100px;
+    text-align: center;
+    background-color: rgb(111, 111, 253);
+    margin-top: 20px;
+
+    
+}
+
